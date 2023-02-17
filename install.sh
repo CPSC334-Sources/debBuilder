@@ -1,4 +1,11 @@
 #!/bin/sh
 
+INSTALL_DIR=/urs/bin
+MAIN_PROGRAM_FILE=bro
+CONFIGURATION_INSTALL_DIR=/etc/
+MAIN_CONFIG_FILE=
+
 echo "Installing bro"
 
+cp src/$MAIN_PROGRAM_FILE $
+cp src/$MAIN_CONFIG_FILE
